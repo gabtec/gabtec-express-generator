@@ -44,10 +44,10 @@ describe("generateRoute() Test Suite", () => {
 
 			// expect(result[0]).not.toEqual("error"); // error
 			expect(result[1]).toEqual(
-				"===> Created file: tests/temp/src/api/name.controller.js"
+				"===> Created file: tests/temp/src/api/Name/name.controller.js"
 			);
 			expect(result[2]).toEqual(
-				"===> Created file: tests/temp/src/api/name.route.js"
+				"===> Created file: tests/temp/src/api/Name/name.route.js"
 			);
 			expect(result[3]).toEqual(
 				"===> Updated file: tests/temp/src/api.js to include new routes"
@@ -76,10 +76,10 @@ describe("generateRoute() Test Suite", () => {
 
 			// expect(result[0]).not.toEqual("error"); // error
 			expect(result[1]).toEqual(
-				"===> Created file: tests/temp/src/api/name.controller.js"
+				"===> Created file: tests/temp/src/api/Name/name.controller.js"
 			);
 			expect(result[2]).toEqual(
-				"===> Created file: tests/temp/src/api/name.route.js"
+				"===> Created file: tests/temp/src/api/Name/name.route.js"
 			);
 			expect(result[3]).toMatch(
 				"You can use the following code to import new files into your project:"
