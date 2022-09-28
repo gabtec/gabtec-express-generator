@@ -1,5 +1,6 @@
 # Gabtec Express Generator
 [![Tests CI](https://github.com/gabtec/gabtec-express-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/gabtec/gabtec-express-generator/actions/workflows/tests.yml)
+
 This is a cli tool to auto generate nodejs code for express REST API's.
 
 ## Current Features:
