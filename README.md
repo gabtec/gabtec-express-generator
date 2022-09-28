@@ -35,6 +35,7 @@ Usage: gegen <module> <args...>
     -h | --help         Packahe Usage
     -v | --version      Package version
 ```
+Watch the video: https://youtu.be/MBQ1traB_lM
 
 ## Default Configs
 
