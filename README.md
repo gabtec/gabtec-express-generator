@@ -41,6 +41,7 @@ Usage: gegen <module> <args...>
 By default this tool uses the following configs:
 
 ```js
+module.exports= {
 	srcFolder: "src/",
 	bannerFolder: "assets/",
 	apiFolder: "api/",
@@ -49,6 +50,7 @@ By default this tool uses the following configs:
 	fileRequiringBanner: "server.js",
 	apiPrefix: "/api/v1/",
 	bannerColor: "magenta",
+};
 ```
 
 To change, some, or all of them, you must create a ".gegen.config.js" file on project root folder
