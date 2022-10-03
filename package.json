@@ -1,7 +1,7 @@
 {
 	"name": "@gabtec/express-generator",
 	"description": "A cli tool to create express.js code",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Gabriel Martins",
 	"main": "lib/index.js",
 	"bin": {

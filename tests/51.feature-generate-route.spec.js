@@ -37,7 +37,7 @@ describe("generateRoute() Test Suite", () => {
 			expect(fs.writeFileSync).toHaveBeenCalledTimes(3);
 
 			expect(fs.writeFileSync.mock.calls[0][0]).toMatch(".controller.js");
-			expect(fs.writeFileSync.mock.calls[1][0]).toMatch(".route.js");
+			expect(fs.writeFileSync.mock.calls[1][0]).toMatch(".routes.js");
 
 			// console.log(readSpy.mock);
 			expect(fs.readFileSync).toHaveBeenCalledTimes(1);
@@ -47,7 +47,7 @@ describe("generateRoute() Test Suite", () => {
 				"===> Created file: tests/temp/src/api/Name/name.controller.js"
 			);
 			expect(result[2]).toEqual(
-				"===> Created file: tests/temp/src/api/Name/name.route.js"
+				"===> Created file: tests/temp/src/api/Name/name.routes.js"
 			);
 			expect(result[3]).toEqual(
 				"===> Updated file: tests/temp/src/api.js to include new routes"
@@ -70,7 +70,7 @@ describe("generateRoute() Test Suite", () => {
 
 			expect(fs.writeFileSync).toHaveBeenCalledTimes(2);
 			expect(fs.writeFileSync.mock.calls[0][0]).toMatch(".controller.js");
-			expect(fs.writeFileSync.mock.calls[1][0]).toMatch(".route.js");
+			expect(fs.writeFileSync.mock.calls[1][0]).toMatch(".routes.js");
 
 			expect(fs.readFileSync).toHaveBeenCalledTimes(1);
 
@@ -79,7 +79,7 @@ describe("generateRoute() Test Suite", () => {
 				"===> Created file: tests/temp/src/api/Name/name.controller.js"
 			);
 			expect(result[2]).toEqual(
-				"===> Created file: tests/temp/src/api/Name/name.route.js"
+				"===> Created file: tests/temp/src/api/Name/name.routes.js"
 			);
 			expect(result[3]).toMatch(
 				"You can use the following code to import new files into your project:"
